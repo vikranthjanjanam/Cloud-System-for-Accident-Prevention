@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "659569653550",
+    "firebase_url": "https://tmonitor-190313.firebaseio.com",
+    "project_id": "tmonitor-190313",
+    "storage_bucket": "tmonitor-190313.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659569653550:android:a9e8427ddab390c6",
+        "android_client_info": {
+          "package_name": "com.iot.project.gonggo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659569653550-ghn3e65rhvas0fa4vq68g2rn8tg98d38.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDn8WXocxtEnQwzZHRVjiMgCC8-i8PEgPQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659569653550:android:2ce26b0fe457cd5f",
+        "android_client_info": {
+          "package_name": "com.iot.project.gonggosimulator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659569653550-ghn3e65rhvas0fa4vq68g2rn8tg98d38.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDn8WXocxtEnQwzZHRVjiMgCC8-i8PEgPQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

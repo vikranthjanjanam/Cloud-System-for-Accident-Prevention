@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+       #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+  </head>
+  <body>
+    <h3>My Google Maps Demo</h3>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+	
+
+	var locations = [
+      ["hyd",16.2762795,80.3805224,0],
+      [ "banglore",16.2760243,80.3797315,1],
+	  ["bus",16.2754159,80.377763]
+    ];
+
+	var map = new google.maps.Map(document.getElementById('map'), {
+		zoom: 13,
+		center: new google.maps.LatLng(20.5937,78.9629),
+		mapTypeId: google.maps.MapTypeId.ROADMAP
+	});
+
+	var infowindow = new google.maps.InfoWindow({});
+
+	var marker, i;
+
+	for (i = 0; i < locations.length; i++) {
+		marker = new google.maps.Marker({
+			position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+			map: map
+		});
+
+		google.maps.event.addListener(marker, 'click', (function (marker, i) {
+			return function () {
+				infowindow.setContent(locations[i][0]);
+				infowindow.open(map, marker);
+			}
+		})(marker, i));
+	}
+}
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBH5hEvPjxSIEKe5dIlHRG1beB7w9LW7V8&callback=initMap">
+    </script>
+  </body>
+</html>
+      
