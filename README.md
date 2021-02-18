@@ -1,7 +1,7 @@
 # Cloud-System-for-Accident-Prevention
 
 ## ARCHITECTURE:  
-![workflow](Gongo-master/workflow.PNG)
+![workflow](Cloud-System-for-Accident-Prevention-master/workflow.PNG)
 
 ### Vehicle Data: 
 GPS data of moving vehicle is collected from driver’s mobile app and sent to cloud for further processing.
